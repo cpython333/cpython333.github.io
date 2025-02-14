@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>使用Look4Sat追踪卫星的经历</title>
+    <link href="/2025/02/14/%E4%BD%BF%E7%94%A8Look4Sat%E8%BF%BD%E8%B8%AA%E5%8D%AB%E6%98%9F%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
+    <url>/2025/02/14/%E4%BD%BF%E7%94%A8Look4Sat%E8%BF%BD%E8%B8%AA%E5%8D%AB%E6%98%9F%E7%9A%84%E7%BB%8F%E5%8E%86/</url>
+    
+    <content type="html"><![CDATA[<p>寒假尝试使用Look4Sat追踪卫星，我用它追踪了国际空间站的实时位置，下面说说步骤吧：<br>1.在手机百度搜索Look4Sat并下载<br>2.给与相关权限<br>3.点击设置按钮，进行GPS定位，再进行数据库的更新<br>4.点击卫星的图标按钮<br>5.在输入框中输入ISS<br>6.选择(ZARYA)并确定<br>7.Look4Sat会显示详细的国际空间站与你的相对位置信息与出入境时间<br>大家快来试试吧：）</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>经历</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>使用YOLOv11训练自己的数据集和推理的经历</title>
     <link href="/2025/02/14/%E4%BD%BF%E7%94%A8YOLOv11%E8%AE%AD%E7%BB%83%E8%87%AA%E5%B7%B1%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9B%86%E5%92%8C%E6%8E%A8%E7%90%86%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
     <url>/2025/02/14/%E4%BD%BF%E7%94%A8YOLOv11%E8%AE%AD%E7%BB%83%E8%87%AA%E5%B7%B1%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9B%86%E5%92%8C%E6%8E%A8%E7%90%86%E7%9A%84%E7%BB%8F%E5%8E%86/</url>
