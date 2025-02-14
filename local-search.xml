@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>SSTV之通过声音信号发送图片的经历</title>
+    <link href="/2025/02/14/SSTV%E4%B9%8B%E9%80%9A%E8%BF%87%E5%A3%B0%E9%9F%B3%E4%BF%A1%E5%8F%B7%E5%8F%91%E9%80%81%E5%9B%BE%E7%89%87%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
+    <url>/2025/02/14/SSTV%E4%B9%8B%E9%80%9A%E8%BF%87%E5%A3%B0%E9%9F%B3%E4%BF%A1%E5%8F%B7%E5%8F%91%E9%80%81%E5%9B%BE%E7%89%87%E7%9A%84%E7%BB%8F%E5%8E%86/</url>
+    
+    <content type="html"><![CDATA[<p>因为对无线电有点兴趣，所以利用寒假的空闲时间研究了一下SSTV，那就从通过声音信号发送图片的经历开始说起吧，废话不多说，上步骤：<br>1.搜索MMSSTV的官网并下载<br>2.安装好后打开软件<br>3.点击Template<br>4.鼠标右键点击<br>5.选中delete，清空点击Template界面的内容<br>6.复制你想要发送的图片<br>7.用鼠标右键点击Template界面<br>8.选择Paste image<br>9.选择以点阵发送<br>10.点击TX<br>11.选择TX Mode（如Robot 72）<br>12.在手机百度搜索Robot 36并下载<br>13.安装好后打开软件<br>14.点击上方菜单栏有着三个点的按钮<br>15.选择Select Mode<br>16.选择之前选择的TX Mode类型（如Robot 72）<br>17.点击开始按钮开始解析声音<br>18.点击电脑MMSSTV的TX界面红色的TX通过声音信号发送图片<br>19.手机的麦克风一定要靠近电脑的喇叭<br>20.MMSSTV的图片音频播放完毕后，在手机的Robot 36会显示解析出来的图片<br>解析出来的图片质量很好哦，大家快来试试吧：）</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>经历</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>使用Look4Sat追踪卫星的经历</title>
     <link href="/2025/02/14/%E4%BD%BF%E7%94%A8Look4Sat%E8%BF%BD%E8%B8%AA%E5%8D%AB%E6%98%9F%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
     <url>/2025/02/14/%E4%BD%BF%E7%94%A8Look4Sat%E8%BF%BD%E8%B8%AA%E5%8D%AB%E6%98%9F%E7%9A%84%E7%BB%8F%E5%8E%86/</url>
