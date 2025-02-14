@@ -27,7 +27,7 @@
 <meta property="og:description" content="寒假要使用YOLOv11训练自己的数据集和推理，完成后刚好来简单回忆和总结一下步骤如下：1.在官网下载Yolov11的代码2.在官网下载Anaconda3.准备好一个文件夹作为数据集4.接着上网下载大量推理所需的相关图片放入数据集中5.使用 labelimg 标注工具标注数据集图片，可以在python环境，使用 pip install labelimg进行安装6.安装完成在Anaconda终端输入">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-02-14T06:08:33.000Z">
-<meta property="article:modified_time" content="2025-02-14T06:35:42.681Z">
+<meta property="article:modified_time" content="2025-02-14T06:45:40.554Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="原创">
 <meta name="twitter:card" content="summary_large_image">
@@ -236,7 +236,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          631 字
+          546 字
         
       </span>
     
@@ -248,7 +248,7 @@
         
         
           <!-- compatible with older versions-->
-          4 分钟
+          3 分钟
         
       </span>
     
@@ -301,13 +301,27 @@
                 
                 <p>寒假要使用YOLOv11训练自己的数据集和推理，完成后刚好来简单回忆和总结一下<br>步骤如下：<br>1.在官网下载Yolov11的代码<br>2.在官网下载Anaconda<br>3.准备好一个文件夹作为数据集<br>4.接着上网下载大量推理所需的相关图片放入数据集中<br>5.使用 labelimg 标注工具标注数据集图片，可以在python环境，使用 pip install labelimg进行安装<br>6.安装完成在Anaconda终端输入命令启动标注软件<br>7.设置自动保存标注生成的标注文件<br>8.标注格式选择yolo格式<br>9.标注所有图片<br>10.将数据集划分为训练集和验证集<br>11.完成了数据集的准备<br>12.修改yolo的训练配置文件，在项目下创建data.vaml文件名，文件名根据数据集名称取<br>13.复制如下代码：<br>train: E:\Desktop\new-yolov9\yolotest\images\train  # train images (relative to ‘path’) 4 images<br>val: E:\Desktop\new-yolov9\yolotest\images\val  # val images (relative to ‘path’) 4 images</p>
 <p>nc: 2</p>
-<h1 id="class-names"><a href="#class-names" class="headerlink" title="class names"></a>class names</h1><p>names: [‘dog’,’cat’]<br>14.在官网安装pytorch环境<br>15.在项目中新建一个requirements.txt,然后把下面代码复制进去：</p>
-<h1 id="Ultralytics-requirements"><a href="#Ultralytics-requirements" class="headerlink" title="Ultralytics requirements"></a>Ultralytics requirements</h1><h1 id="Example-pip-install-r-requirements-txt"><a href="#Example-pip-install-r-requirements-txt" class="headerlink" title="Example: pip install -r requirements.txt"></a>Example: pip install -r requirements.txt</h1><h1 id="Base-—————————————"><a href="#Base-—————————————" class="headerlink" title="Base —————————————-"></a>Base —————————————-</h1><p>matplotlib&gt;&#x3D;3.3.0<br>numpy&#x3D;&#x3D;1.24.4 # pinned by Snyk to avoid a vulnerability<br>opencv-python&gt;&#x3D;4.6.0<br>pillow&gt;&#x3D;7.1.2<br>pyyaml&gt;&#x3D;5.3.1<br>requests&gt;&#x3D;2.23.0<br>scipy&gt;&#x3D;1.4.1<br>tqdm&gt;&#x3D;4.64.0</p>
-<h1 id="Logging-————————————"><a href="#Logging-————————————" class="headerlink" title="Logging ————————————-"></a>Logging ————————————-</h1><h1 id="tensorboard-2-13-0"><a href="#tensorboard-2-13-0" class="headerlink" title="tensorboard&gt;&#x3D;2.13.0"></a>tensorboard&gt;&#x3D;2.13.0</h1><h1 id="dvclive-2-12-0"><a href="#dvclive-2-12-0" class="headerlink" title="dvclive&gt;&#x3D;2.12.0"></a>dvclive&gt;&#x3D;2.12.0</h1><h1 id="clearml"><a href="#clearml" class="headerlink" title="clearml"></a>clearml</h1><h1 id="comet"><a href="#comet" class="headerlink" title="comet"></a>comet</h1><h1 id="Plotting-————————————"><a href="#Plotting-————————————" class="headerlink" title="Plotting ————————————"></a>Plotting ————————————</h1><p>pandas&gt;&#x3D;1.1.4<br>seaborn&gt;&#x3D;0.11.0</p>
-<h1 id="Export-————————————–"><a href="#Export-————————————–" class="headerlink" title="Export ————————————–"></a>Export ————————————–</h1><h1 id="coremltools-7-0-CoreML-export"><a href="#coremltools-7-0-CoreML-export" class="headerlink" title="coremltools&gt;&#x3D;7.0  # CoreML export"></a>coremltools&gt;&#x3D;7.0  # CoreML export</h1><h1 id="onnx-1-12-0-ONNX-export"><a href="#onnx-1-12-0-ONNX-export" class="headerlink" title="onnx&gt;&#x3D;1.12.0  # ONNX export"></a>onnx&gt;&#x3D;1.12.0  # ONNX export</h1><h1 id="onnxsim-0-4-1-ONNX-simplifier"><a href="#onnxsim-0-4-1-ONNX-simplifier" class="headerlink" title="onnxsim&gt;&#x3D;0.4.1  # ONNX simplifier"></a>onnxsim&gt;&#x3D;0.4.1  # ONNX simplifier</h1><h1 id="nvidia-pyindex-TensorRT-export"><a href="#nvidia-pyindex-TensorRT-export" class="headerlink" title="nvidia-pyindex  # TensorRT export"></a>nvidia-pyindex  # TensorRT export</h1><h1 id="nvidia-tensorrt-TensorRT-export"><a href="#nvidia-tensorrt-TensorRT-export" class="headerlink" title="nvidia-tensorrt  # TensorRT export"></a>nvidia-tensorrt  # TensorRT export</h1><h1 id="scikit-learn-0-19-2-CoreML-quantization"><a href="#scikit-learn-0-19-2-CoreML-quantization" class="headerlink" title="scikit-learn&#x3D;&#x3D;0.19.2  # CoreML quantization"></a>scikit-learn&#x3D;&#x3D;0.19.2  # CoreML quantization</h1><h1 id="tensorflow-2-4-1-TF-exports-cpu-aarch64-macos"><a href="#tensorflow-2-4-1-TF-exports-cpu-aarch64-macos" class="headerlink" title="tensorflow&gt;&#x3D;2.4.1  # TF exports (-cpu, -aarch64, -macos)"></a>tensorflow&gt;&#x3D;2.4.1  # TF exports (-cpu, -aarch64, -macos)</h1><h1 id="tflite-support"><a href="#tflite-support" class="headerlink" title="tflite-support"></a>tflite-support</h1><h1 id="tensorflowjs-3-9-0-TF-js-export"><a href="#tensorflowjs-3-9-0-TF-js-export" class="headerlink" title="tensorflowjs&gt;&#x3D;3.9.0  # TF.js export"></a>tensorflowjs&gt;&#x3D;3.9.0  # TF.js export</h1><h1 id="openvino-dev-2023-0-OpenVINO-export"><a href="#openvino-dev-2023-0-OpenVINO-export" class="headerlink" title="openvino-dev&gt;&#x3D;2023.0  # OpenVINO export"></a>openvino-dev&gt;&#x3D;2023.0  # OpenVINO export</h1><h1 id="Extras-————————————–"><a href="#Extras-————————————–" class="headerlink" title="Extras ————————————–"></a>Extras ————————————–</h1><p>psutil  # system utilization<br>py-cpuinfo  # display CPU info<br>thop&gt;&#x3D;0.1.1  # FLOPs computation</p>
-<h1 id="ipython-interactive-notebook"><a href="#ipython-interactive-notebook" class="headerlink" title="ipython  # interactive notebook"></a>ipython  # interactive notebook</h1><h1 id="albumentations-1-0-3-training-augmentations"><a href="#albumentations-1-0-3-training-augmentations" class="headerlink" title="albumentations&gt;&#x3D;1.0.3  # training augmentations"></a>albumentations&gt;&#x3D;1.0.3  # training augmentations</h1><h1 id="pycocotools-2-0-6-COCO-mAP"><a href="#pycocotools-2-0-6-COCO-mAP" class="headerlink" title="pycocotools&gt;&#x3D;2.0.6  # COCO mAP"></a>pycocotools&gt;&#x3D;2.0.6  # COCO mAP</h1><h1 id="roboflow"><a href="#roboflow" class="headerlink" title="roboflow"></a>roboflow</h1><p>16.在根目录新建一个python文件取名为：train.py<br>17.把训练代码复制到train.py文件：</p>
-<h1 id="coding-utf-8"><a href="#coding-utf-8" class="headerlink" title="-- coding: utf-8 --"></a>-<em>- coding: utf-8 -</em>-</h1><p>import warnings<br>warnings.filterwarnings(‘ignore’)<br>from ultralytics import YOLO</p>
-<p>if <strong>name</strong> &#x3D;&#x3D; ‘<strong>main</strong>‘:<br>    # model.load(‘yolo11n.pt’) # 加载预训练权重,改进或者做对比实验时候不建议打开，因为用预训练模型整体精度没有很明显的提升<br>    model &#x3D; YOLO(model&#x3D;r’D:\2-Python\1-YOLO\YOLOv11\ultralytics-8.3.2\ultralytics\cfg\models\11\yolo11.yaml’)<br>    model.train(data&#x3D;r’data.yaml’,<br>                imgsz&#x3D;640,<br>                epochs&#x3D;50,<br>                batch&#x3D;4,<br>                workers&#x3D;0,<br>                device&#x3D;’’,<br>                optimizer&#x3D;’SGD’,<br>                close_mosaic&#x3D;10,<br>                resume&#x3D;False,<br>                project&#x3D;’runs&#x2F;train’,<br>                name&#x3D;’exp’,<br>                single_cls&#x3D;False,<br>                cache&#x3D;False,<br>                )</p>
+<p> class names<br>names: [‘dog’,’cat’]<br>14.在官网安装pytorch环境<br>15.在项目中新建一个requirements.txt,然后把下面代码复制进去：<br>matplotlib&gt;&#x3D;3.3.0<br>numpy&#x3D;&#x3D;1.24.4 # pinned by Snyk to avoid a vulnerability<br>opencv-python&gt;&#x3D;4.6.0<br>pillow&gt;&#x3D;7.1.2<br>pyyaml&gt;&#x3D;5.3.1<br>requests&gt;&#x3D;2.23.0<br>scipy&gt;&#x3D;1.4.1<br>tqdm&gt;&#x3D;4.64.0<br>pandas&gt;&#x3D;1.1.4<br>seaborn&gt;&#x3D;0.11.0<br>psutil  # system utilization<br>py-cpuinfo  # display CPU info<br>thop&gt;&#x3D;0.1.1  # FLOPs computation</p>
+<p>16.在根目录新建一个python文件取名为：train.py<br>17.把训练代码复制到train.py文件：<br> -<em>- coding: utf-8 -</em>-</p>
+<p>import warnings<br>warnings.filterwarnings(‘ignore’)<br>from ultralytics import YOLO</p>
+<pre><code class="hljs">if __name__ == &#39;__main__&#39;:
+# model.load(&#39;yolo11n.pt&#39;) # 加载预训练权重,改进或者做对比实验时候不建议打开，因为用预训练模型整体精度没有很明显的提升
+model = YOLO(model=r&#39;D:\2-Python\1-YOLO\YOLOv11\ultralytics-8.3.2\ultralytics\cfg\models\11\yolo11.yaml&#39;)
+model.train(data=r&#39;data.yaml&#39;,
+            imgsz=640,
+            epochs=50,
+            batch=4,
+            workers=0,
+            device=&#39;&#39;,
+            optimizer=&#39;SGD&#39;,
+            close_mosaic=10,
+            resume=False,
+            project=&#39;runs/train&#39;,
+            name=&#39;exp&#39;,
+            single_cls=False,
+            cache=False,
+            )
+</code></pre>
 <p>18.模型配置路径改成你自己的路径，还有数据集配置文件也修改成你自己的路径<br>19.运行代码，开始推理<br>大家试试吧：）</p>
 
                 
