@@ -23,36 +23,20 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建博客的过程">
 <meta property="og:url" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/index.html">
-<meta property="og:site_name" content="陈创">
+<meta property="og:site_name" content="陈创的博客">
 <meta property="og:description" content="上帝说要有博客，于是就有了博客      于是： 在 寒假的空闲时间中 ，我用 Hexo 搭建了一个 属于自己的博客 🥳我知道你很急，但你别急😁下面让我来说说搭建博客的过程吧😏    具体的操作如下：1.注册好一个 GitHub 账号（因为后面要把我们的博客发布到 github pages ） 2.在电脑上安装好 Git ，没有 Git 哪来 Hub 呢😏 3.在电脑上安装 NodeJS">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/github.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/nvm.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E4%BD%A0%E7%9A%84%E4%BB%93%E5%BA%93.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E5%A1%AB%E5%86%99%E4%BB%93%E5%BA%93%E5%90%8D.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/md.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/test%E5%9B%BE%E7%89%87.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E5%88%9B%E5%BB%BA%E5%BA%94%E7%94%A8.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/key.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E7%BB%9F%E8%AE%A1.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E9%85%8D%E7%BD%AEleancloud.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E6%89%93%E5%BC%80%E8%AE%A1%E6%95%B0%E5%8A%9F%E8%83%BD.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/PVUV.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E5%90%AF%E7%94%A8%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6.png">
-<meta property="og:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/%E9%85%8D%E7%BD%AELeanCloud%E7%9A%84appId%E5%92%8Cappkey.png">
+<meta property="og:image" content="http://example.com/imgs/github.png">
 <meta property="article:published_time" content="2025-02-10T05:03:47.000Z">
-<meta property="article:modified_time" content="2025-02-17T02:43:23.095Z">
+<meta property="article:modified_time" content="2025-02-17T15:07:15.196Z">
 <meta property="article:author" content="陈创">
 <meta property="article:tag" content="原创">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/2025/02/10/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/github.png">
+<meta name="twitter:image" content="http://example.com/imgs/github.png">
   
   
   
-  <title>搭建博客的过程 - 陈创</title>
+  <title>搭建博客的过程 - 陈创的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -202,6 +186,18 @@
             </li>
           
         
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/" target="_self">
+                <i class="iconfont icon-link-fill"></i>
+                <span>友链</span>
+              </a>
+            </li>
+          
+        
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
@@ -225,7 +221,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+     style="background: url('/img/sky.jpeg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -238,6 +234,11 @@
         
           
   <div class="mt-3">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-author" aria-hidden="true"></i>
+        陈创
+      </span>
     
     
       <span class="post-meta">
@@ -675,7 +676,7 @@
     <div class="footer-inner">
   
     <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
     </div>
   
   
