@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>TuringComplete了解一下</title>
+    <link href="/2025/02/19/TuringComplete%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/"/>
+    <url>/2025/02/19/TuringComplete%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>少年，你还在为头发多而烦恼吗？那么，Turing Complete了解一下</p></blockquote><ul><li><input checked disabled type="checkbox"> <em><strong>摸鱼</strong></em></li><li><input checked disabled type="checkbox"> <em><strong>摸鱼</strong></em></li><li><input checked disabled type="checkbox"> <em><strong>还是摸鱼</strong></em></li></ul><h2 id="Turing-Complete"><a href="#Turing-Complete" class="headerlink" title="Turing Complete"></a><em><strong>Turing Complete</strong></em></h2><h3 id="自言自语-ing-："><a href="#自言自语-ing-：" class="headerlink" title="自言自语 ing ："></a>自言自语 <em><strong>ing</strong></em> ：</h3><h3 id="鬼故事"><a href="#鬼故事" class="headerlink" title="鬼故事"></a>鬼故事</h3><p>博客的开头先给大家讲个 <em><strong>鬼故事</strong></em> （很恐怖的那种嗷😏）：</p><p>一天 <del>白天</del> <em><strong>夜晚</strong></em> ，一位从来不打游戏的大学牲 <em><strong>在某种未知的力量驱使下</strong></em> 打开了 <em><strong>Steam</strong></em> <del>（不是从来不打游戏吗？哪来的Steam）</del> </p><p>他感到 <em><strong>困惑与痛苦</strong></em> ，因为自己的 <em><strong>头发过于茂密</strong></em> ， <em><strong>发质太好</strong></em> <del>（什么玩意）</del> ，别人都说他不像一个搞计算机的，说他是个小白，技术不够成熟</p><p>电脑仿佛听懂了他的心声，停在了一个 <em><strong>诡异的网页</strong></em> ：<br><img src="/2025/02/19/TuringComplete%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/turing.png" title="☠️"></p><p>此刻的少年 <em><strong>眼神空洞</strong></em> ，无视了一切 <em><strong>警告</strong></em> <del>（不是，哥们，哪来的警告）</del> ，点击了 <em><strong>下载</strong></em> 👹</p><p>短短三天的时间过去了</p><p>当人们再次遇到这位大学牲时，人们惊讶的发现 <del>（你谁啊🫤）</del> </p><p>他。。。。他。。。。他。。。。。</p><p><em><strong>竟然秃了</strong></em> 😱</p><p>后续经过调查，发现他的电脑上只显示如下 <em><strong>诡异的符号</strong></em> ：</p><p><em><strong>Turing Complete</strong></em></p><p>一个声音在低语：</p><blockquote><p>少年，你还在为头发多而烦恼吗？</p></blockquote><h3 id="吐槽："><a href="#吐槽：" class="headerlink" title="吐槽："></a>吐槽：</h3><p>哈哈哈哈，好扯🤣</p><p>家人们，手搓 <em><strong>CPU</strong></em> 的快乐，谁懂啊😭</p><p>其实它还是一款不错的游戏的（大脑表示赞同）</p><p>可以 <em><strong>从逻辑门开始从底层了解计算机</strong></em> ，对计算机深入理解非常有帮助😏</p><p>游戏简介是这么说的（如果你感兴趣的话）：</p><figure class="highlight vhdl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs vhdl">计算机里所有的电子元件都可以基于一种叫做“与非门”（<span class="hljs-keyword">NAND</span> gate）的基本元件而实现。<br>在本游戏中，你将会面对一系列挑战，在求解谜题的过程中，走出从基础逻辑门通向算术单元、存储器等复杂元件的道路，并沿着这条道路最终学习如何搭建完整的处理器架构。<br>完成所有主线关卡后，你将对处理器架构、汇编语言和电子元件彼此之间的具体联系产生更加深刻的理解。<br>你也会了解高级编程语言中常见的条件判断、循环、函数等概念是如何在汇编和硬件层面具体实现的。<br></code></pre></td></tr></table></figure><p><img src="/2025/02/19/TuringComplete%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/%E6%88%91%E8%83%BD%E5%AD%A6%E5%88%B0%E7%9A%84.png" title="怎么样是不是物有所值😆"></p><p>价格也很 <em><strong>亲民</strong></em> <del>（个鬼）</del></p><p><em><strong>70块钱</strong></em> 了解一下😅</p><p><em><strong>70块钱</strong></em> 也就算了，你才几百 <em><strong>MB</strong></em> 大，和着你是来收智商税的😵</p><p><del>哎呀，不知不觉水了这么多字数了😆</del></p><p>上干货喽😏：</p><h3 id="干货："><a href="#干货：" class="headerlink" title="干货："></a>干货：</h3><h3 id="1-Turing-Complete-页面展示"><a href="#1-Turing-Complete-页面展示" class="headerlink" title="1. Turing Complete 页面展示"></a>1. <em><strong>Turing Complete</strong></em> 页面展示</h3><p><img src="/2025/02/19/TuringComplete%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/%E9%A1%B5%E9%9D%A2%E5%B1%95%E7%A4%BA.png" title="Turing Complete页面展示"></p><h3 id="2-Turing-Complete-关卡展示"><a href="#2-Turing-Complete-关卡展示" class="headerlink" title="2. Turing Complete 关卡展示"></a>2. <em><strong>Turing Complete</strong></em> 关卡展示</h3><p><img src="/2025/02/19/TuringComplete%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/%E5%85%B3%E5%8D%A1%E5%B1%95%E7%A4%BA.png" title="我已经通关的😏"></p><h3 id="3-Turing-Complete-关卡内部"><a href="#3-Turing-Complete-关卡内部" class="headerlink" title="3. Turing Complete 关卡内部"></a>3. <em><strong>Turing Complete</strong></em> 关卡内部</h3><p><img src="/2025/02/19/TuringComplete%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/%E6%8A%98%E7%A3%A8%E4%BA%BA%E5%95%8A.png" title="折磨人啊😵"></p><p>我都介绍到这了</p><p>还没有心动吗😏</p><blockquote><p>心动不如行动</p></blockquote><h3 id="快购买-Turing-Complete-吧😆"><a href="#快购买-Turing-Complete-吧😆" class="headerlink" title="快购买 Turing Complete 吧😆"></a>快购买 <em><strong>Turing Complete</strong></em> 吧😆</h3><p>我知道你渴望 <em><strong>秃头</strong></em> 很久了😏</p><p>期待你学有所成 <del>（秃头）</del> 的快乐😄</p><p>祝你玩得开心（秃的放心）😝</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>TuringComplete</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>网络空间安全经历之识别网站cdn服务</title>
     <link href="/2025/02/15/%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E7%BB%8F%E5%8E%86%E4%B9%8B%E8%AF%86%E5%88%AB%E7%BD%91%E7%AB%99cdn%E6%9C%8D%E5%8A%A1/"/>
     <url>/2025/02/15/%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E7%BB%8F%E5%8E%86%E4%B9%8B%E8%AF%86%E5%88%AB%E7%BD%91%E7%AB%99cdn%E6%9C%8D%E5%8A%A1/</url>
